@@ -1,2 +1,3 @@
 # Code-Samples
-Code samples
+
+A collection of code samples.
