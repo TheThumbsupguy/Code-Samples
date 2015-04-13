@@ -1,0 +1,47 @@
+// -----------
+// Colors
+// -----------
+
+$grey: #999;
+$grey-2: #666;
+$grey-3: #333;
+$red: #E9191B;
+
+$nav-colors: #86C0E9, #91D7EB, #96D2BA, #ADD47A, #E6E986, #F1A583, #EF9385;
+
+
+
+
+
+// -----------
+// Media Widths
+// -----------
+
+$lg: 1200px;
+$md-2: 980px;
+$md: 800px;
+$sm: 640px;
+$xs: 480px;
+
+
+
+
+
+// -----------
+// Placeholder Styles
+// -----------
+
+%btn {
+	color: $red;
+	border: 1px solid $red;
+	background: transparent;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 9px;
+	cursor: pointer;
+	&:hover {
+		color: white;
+		background: $red;
+	}
+}

@@ -1,0 +1,126 @@
+// -----------
+// Imports
+// -----------
+
+@import 'config';
+@import 'header';
+@import 'footer';
+
+
+
+
+
+// -----------
+// Global
+// -----------
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+body {
+	background: url(../img/pattern-1.png) center top;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	height: auto !important;
+}
+
+h1, h2, h3 {
+	color: $red;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 29px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p, ul li, footer div {
+	font-size: 12px;
+	line-height: 1.4;
+	color: $grey-2;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.container {
+	max-width: 770px;
+	margin: 0 auto;
+}
+
+#masterContainer {
+	position: relative;
+	background: url(../img/pattern-2.png) center -85px;
+	min-height: 350px;
+	z-index: 1;
+	.container {
+		background-color: white;
+		padding-bottom: 50px;
+	}
+}
+
+.alert {
+	text-align: center;
+	border-radius: 4px;
+	padding: 20px 20px 1px;
+	margin-bottom: 30px;
+	p {
+		color: white;
+	}
+}
+
+.alert-danger {
+	background-color: #EE5F5B;
+}
+
+.alert-success {
+	background-color: #62C462;
+}
+
+.error-404 {
+	padding: 20px;
+}
+
+
+
+
+
+// -----------
+// Graphics
+// -----------
+
+.graphic-1 {
+	background: url(../img/graphic-1.png) center center no-repeat;
+	height: 38px;
+}
+.graphic-2 {
+	background: url(../img/graphic-2.png) center center no-repeat;
+	height: 48px;
+}

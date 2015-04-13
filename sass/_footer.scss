@@ -1,0 +1,65 @@
+// -----------
+// Imports
+// -----------
+
+@import 'config';
+
+
+
+
+
+// -----------
+// Footer
+// -----------
+
+footer {
+	position: relative;
+	padding-top: 20px;
+	margin: 0 0 40px;
+	.menu-main {
+		margin-bottom: 30px;
+		padding: 40px 40px 0;
+		box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+		position: relative;
+		@media all and (max-width: $md) {
+			box-shadow: none;
+			padding: 20px 0;
+		}
+		li {
+			float: left;
+			margin-bottom: 40px;
+			position: relative;
+			a {
+				color: $grey;
+				margin: 10px;
+			}
+		}
+		@media all and (max-width: $md) {
+			padding-bottom: 1px;
+			li {
+				float: none;
+				text-align: center;
+			}
+		}
+	}
+	.copyright,
+	.privacy,
+	{
+		font-family: "futura-pt",sans-serif;
+		font-size: 11px;
+		letter-spacing: 1px;
+		color: $grey-2;
+		margin-bottom: 20px 0;
+		text-align: center;
+		a:hover {
+			text-decoration: underline;
+		}
+		.separator {
+			color: $grey;
+			padding: 0 5px;
+		}
+		.company {
+			color: $grey-3;
+		}
+	}
+}
